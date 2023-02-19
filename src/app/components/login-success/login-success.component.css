@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 30vh;
+  font-size: 26px;
+}
+
+.secondTitle h4 {
+  margin-top: 2vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.loading {
+  margin: auto;
+  text-align: center;
+  margin-top: -3vh;
+}

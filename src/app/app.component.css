@@ -1,0 +1,17 @@
+.screen {
+  background-color: rgb(216, 216, 216);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  background-color: whitesmoke;
+  width: 360px;
+  height: 740px;
+  box-shadow: 0px 0px 30px #26262bc2;
+  padding: 12px;
+  border-radius: 20px;
+  scale: 0.95;
+}

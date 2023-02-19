@@ -1,0 +1,218 @@
+div,
+label,
+h2,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 98%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.menuBurger {
+  display: flex;
+  flex-direction: column;
+  height: 15px;
+  cursor: pointer;
+  margin-left: 0;
+  padding: 5px;
+}
+
+.menuBurger span {
+  background-color: black;
+  width: 16px;
+  height: 2px;
+  font-weight: 600;
+}
+
+.title h2 {
+  font-size: 18px;
+  margin-left: 2.8vw;
+}
+.plan {
+  margin-right: 0;
+  padding: 1px 8px;
+  background-color: rgba(199, 116, 38, 0.795);
+  border-radius: 50px;
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.651);
+}
+
+.loggedUser {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5vh;
+  background-color: #99b182;
+  height: 56px;
+  border-radius: 6px;
+}
+
+.name,
+.email {
+  color: white;
+  margin-left: 2vw;
+}
+
+.name {
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.email {
+  margin-top: -0.9vh;
+  font-size: smaller;
+  opacity: 0.68;
+  font-family: "Montserrat";
+  line-height: 20px;
+}
+.myProfileWrapper {
+  margin-top: 2vh;
+  background-color: rgba(206, 205, 207, 0.308);
+  padding: 9px 2px;
+  border-radius: 4px;
+}
+
+.myProfile {
+  display: flex;
+  cursor: pointer;
+}
+
+.circle {
+  background-color: rgba(212, 210, 210, 0.664);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.circle mat-icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.65;
+}
+.textWrapper {
+  margin-left: 2.5vw;
+}
+.textWrapper h2 {
+  font-size: 16px;
+}
+
+.textWrapper h5 {
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+.warningIcon {
+  color: red;
+}
+
+.arrowIcon {
+  opacity: 0.6;
+  font-size: large;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.accSettings {
+  margin-top: 2vh;
+  display: flex;
+  cursor: pointer;
+}
+.aboutTitle {
+  margin-top: 2.5vh;
+  margin-left: 1.5vw;
+  font-size: smaller;
+  opacity: 0.6;
+}
+.aboutWrapper {
+  margin-top: 0.5vh;
+  background-color: rgba(206, 205, 207, 0.308);
+  padding: 4px 2px;
+  border-radius: 4px;
+  padding-bottom: 6px;
+}
+
+.help,
+.aboutApp,
+.privacy,
+.terms {
+  margin-top: 1vh;
+  display: flex;
+  cursor: pointer;
+}
+.logoutWrapper {
+  margin-top: 1.5vh;
+  background-color: rgba(206, 205, 207, 0.308);
+  padding: 6px 2px;
+  border-radius: 4px;
+}
+.logout {
+  display: flex;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: rgba(192, 70, 70, 0.26);
+  border-radius: 10px;
+}
+.logout span h5 {
+  margin-top: 1.5px;
+  font-size: 11.5px;
+}
+
+.updatePlanBtn {
+  height: 45px;
+  background-color: rgba(199, 116, 38, 0.795);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 96%;
+  cursor: pointer;
+  font-size: larger;
+  position: fixed;
+  bottom: 8vh;
+  left: 0;
+  margin: 0px 8px;
+  scale: 0.96;
+}
+
+.updatePlanBtn:hover {
+  background-color: rgba(199, 116, 38, 0.938);
+}
+
+.footerMenu {
+  scale: 0.98;
+  position: fixed;
+  display: flex;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 0.5px solid rgba(128, 128, 128, 0.74);
+}
+
+.footerItem {
+  scale: 0.71;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 14px;
+  cursor: pointer;
+}
+
+.footerItem:hover {
+  background-color: rgba(231, 229, 229, 0.116);
+  box-shadow: 0px 0px 16px #33333849;
+}
+
+.footerItem label {
+  margin-top: 0.6vh;
+  font-size: smaller;
+  opacity: 0.65;
+}
