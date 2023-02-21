@@ -10,7 +10,7 @@ import { User } from '../models/User';
   providedIn: 'root',
 })
 export class AuthService {
-  ALL_USERS_API_URL: string = 'https://fakestoreapi.com/users';
+  private ALL_USERS_API_URL: string = 'https://fakestoreapi.com/users';
 
   private currUser: User;
   private defEmail: string;

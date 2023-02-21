@@ -31,4 +31,6 @@ don@gmail.com
 ewedon
 
 kate@gmail.com
-kfejk@*_# cura-eats
+kfejk@*_
+
+# cura-eats
