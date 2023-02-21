@@ -1,0 +1,28 @@
+<div class="main-settings-container">
+  <div class="main-text">
+    <label>Account settings</label>
+  </div>
+  <div class="arrow" (click)="back()">
+    <img src="assets\images\arrow.png" />
+  </div>
+
+  <span class="username-container">
+    <label class="username-tag">username/email</label>
+  </span>
+  <span class="password-container">
+    <label class="password-tag">Password</label>
+  </span>
+  <div class="inputs">
+    <input [(ngModel)]="username" type="email" /><br />
+    <input type="password" [(ngModel)]="password" /><br />
+  </div>
+
+  <div class="de-re-but">
+    <button class="reset" (click)="validateLogin1('reset')">
+      Reset Account</button
+    ><br />
+    <button class="delete" (click)="validateLogin1('delete')">
+      Delete Account
+    </button>
+  </div>
+</div>

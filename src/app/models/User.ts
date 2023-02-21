@@ -3,6 +3,8 @@ export class User {
     public id?: number | null,
     public email?: string | null,
     public password?: string | null,
+    public birthday?: Date | null | undefined,
+    public sex?: string | null | undefined,
     public name?:
       | {
           firstname: string | null | undefined;

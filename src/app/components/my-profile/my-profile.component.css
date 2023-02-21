@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.myProfileContainer {
+  position: relative;
+}
+.myProfile {
+  position: absolute;
+  width: 103px;
+  height: 24px;
+  left: 136px;
+  top: 46px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.backArrowContainer {
+  position: relative;
+}
+
+.backArrow {
+  position: absolute;
+  top: 99.41px;
+  left: 23.21px;
+}
+
+.loginHeader {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 40px;
+  top: 146px;
+  background-color: #ffffff;
+  border-style: solid;
+  width: 113px;
+  height: 17px;
+  border-width: 2px;
+  border-color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #000000;
+}
+
+.inputEmailContainer {
+  position: relative;
+}
+
+#inputEmail {
+  box-sizing: border-box;
+  width: 335px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 147px;
+  border: 1px solid #050522;
+}
+
+.firstNameHeader {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 40px;
+  top: 237px;
+  background-color: #ffffff;
+  border-style: solid;
+  width: 113px;
+  height: 17px;
+  border-width: 2px;
+  border-color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #000000;
+}
+
+.inputFirstNameContainer {
+  position: relative;
+}
+
+#inputFirstName {
+  box-sizing: border-box;
+  width: 335px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 238px;
+  border: 1px solid #050522;
+}
+
+.lastNameHeader {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 40px;
+  top: 328px;
+  background-color: #ffffff;
+  border-style: solid;
+  width: 113px;
+  height: 17px;
+  border-width: 2px;
+  border-color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #000000;
+}
+
+.inputLastNameContainer {
+  position: relative;
+}
+
+#inputLastName {
+  box-sizing: border-box;
+  width: 335px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 329px;
+  border: 1px solid #050522;
+}
+
+.inputBirthdayContainer {
+  position: relative;
+}
+
+/*.birthdayLabel{
+    position: absolute;
+    display: flex;
+    margin-left: 20.62px;
+    margin-top: 18px;
+    left: 41.62px;
+    top: 427px;
+    width: 74px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 124.5%;
+    /* or 21px 
+
+
+    color: #000000;
+}*/
+
+#inputBirthday {
+  /* box-sizing: border-box; */
+  width: 318px;
+  height: 54px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 409px;
+  border: 1px solid #050522;
+  padding: 4px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.inputSexContainer {
+  position: relative;
+}
+
+#inputSex {
+  box-sizing: border-box;
+  width: 335px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 489px;
+  border: 1px solid #050522;
+}
+
+.updateProfileButtonContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.updateProfileButton {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 569px;
+  margin-top: 2vh;
+  bottom: 0%;
+
+  /* Primary/Orange */
+
+  background: #e09167;
+  box-shadow: -1px 1px 10px rgba(5, 5, 34, 0.15);
+  height: 60px;
+  width: 335px;
+  left: 21px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+input {
+  padding-left: 6px;
+  font-size: larger;
+  color: #000000;
+}

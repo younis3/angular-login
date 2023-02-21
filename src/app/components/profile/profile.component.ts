@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { User } from 'src/app/models/User';
 import { AuthService } from 'src/app/services/auth.service';
 
@@ -19,7 +20,7 @@ import { AuthService } from 'src/app/services/auth.service';
       <span class="email">{{ email ? email : 'noaniv@gmail.com' }}</span>
     </div>
     <div class="myProfileWrapper">
-      <div class="myProfile">
+      <div class="myProfile" (click)="gotoMyProfile()">
         <div class="circle"><mat-icon>person_outline</mat-icon></div>
         <div class="textWrapper">
           <span><h2>My Profile</h2></span>
@@ -28,7 +29,7 @@ import { AuthService } from 'src/app/services/auth.service';
         <div class="warningIcon"><mat-icon>warning</mat-icon></div>
         <div class="arrowIcon"><mat-icon>keyboard_arrow_right</mat-icon></div>
       </div>
-      <div class="accSettings">
+      <div class="accSettings" (click)="gotoAccSettings()">
         <div class="circle"><mat-icon>settings</mat-icon></div>
         <div class="textWrapper">
           <span><h2>Account settings</h2></span>
@@ -51,7 +52,7 @@ import { AuthService } from 'src/app/services/auth.service';
           <mat-icon>keyboard_arrow_right </mat-icon>
         </div>
       </div>
-      <div class="aboutApp">
+      <div class="aboutApp" (click)="gotoAbout()">
         <div class="circle">
           <mat-icon>favorite_border</mat-icon>
         </div>
@@ -143,7 +144,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class ProfileComponent implements OnInit {
   username: string | null | undefined;
   email: string | null | undefined;
-  constructor(private auth: AuthService) {
+  constructor(private router: Router, private auth: AuthService) {
     this.username = null;
     this.email = null;
   }
@@ -164,5 +165,14 @@ export class ProfileComponent implements OnInit {
 
   logout() {
     this.auth.logout();
+  }
+  gotoMyProfile() {
+    this.router.navigate(['/myprofile']);
+  }
+  gotoAccSettings() {
+    this.router.navigate(['/accountsettings']);
+  }
+  gotoAbout() {
+    this.router.navigate(['/about']);
   }
 }

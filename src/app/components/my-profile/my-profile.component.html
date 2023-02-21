@@ -1,0 +1,67 @@
+<form>
+  <div class="myProfileContainer">
+    <div class="myProfile">My Profile</div>
+  </div>
+  <a class="backArrowContainer" routerLink="/profile">
+    <img class="backArrow" src="assets\images\arrow.png" alt="" width="15px" />
+  </a>
+  <div class="loginHeader">username/email</div>
+  <div class="inputEmailContainer">
+    <input
+      type="text"
+      id="inputEmail"
+      [(ngModel)]="email"
+      [ngModelOptions]="{ standalone: true }"
+      required
+    />
+  </div>
+  <div class="firstNameHeader">First Name</div>
+  <div class="inputFirstNameContainer">
+    <input
+      type="text"
+      name=""
+      id="inputFirstName"
+      [(ngModel)]="firstName"
+      [ngModelOptions]="{ standalone: true }"
+      required
+    />
+  </div>
+  <div class="lastNameHeader">Last Name</div>
+  <div class="inputLastNameContainer">
+    <input
+      type="text"
+      name=""
+      id="inputLastName"
+      [(ngModel)]="lastName"
+      [ngModelOptions]="{ standalone: true }"
+      required
+    />
+  </div>
+  <div class="inputBirthdayContainer">
+    <input
+      type="text"
+      name=""
+      id="inputBirthday"
+      onfocus="(this.type='date')"
+      [(ngModel)]="birthday"
+      [ngModelOptions]="{ standalone: true }"
+      required
+    />
+  </div>
+  <div class="inputSexContainer">
+    <input
+      type="text"
+      name=""
+      id="inputSex"
+      [(ngModel)]="sex"
+      [ngModelOptions]="{ standalone: true }"
+      required
+    />
+  </div>
+  <div class="updateProfileButtonContainer">
+    <button type="submit" class="updateProfileButton" (click)="update()">
+      Update Profile
+      <!-- <label id="updateProfileLabel">Update Profile</label> -->
+    </button>
+  </div>
+</form>
